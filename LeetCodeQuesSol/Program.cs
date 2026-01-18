@@ -33,10 +33,26 @@ using LeetCodeQuesSol.Foundation;
 //Console.WriteLine('[' + string.Join(", ", nums) + ']');
 
 
-int[] nums = [];
-Console.WriteLine(RemoveElementSol.RemoveElement(nums , 6));
-Console.WriteLine('[' + string.Join(", ", nums) + ']');
+//int[] nums = [];
+//Console.WriteLine(RemoveElementSol.RemoveElement(nums , 6));
+//Console.WriteLine('[' + string.Join(", ", nums) + ']');
 
+//char[] input = ['h','e','l','l','o'];
+//ReverseStringSol.ReverseString(input);
+//Console.WriteLine('[' + string.Join(", ", input) + ']');
+
+
+//int[] num1 = [1, 2, 3, 0, 0, 0];
+//int[] num2 = [2, 5, 6];
+//MergeSortedArraySol.Merge(num1, 3, num2, num2.Length);
+//Console.WriteLine('[' + string.Join(", ", num1) + ']');
+
+
+//int[] nums = [4, 2, 4, 0, 0, 3, 0, 5, 1, 0];
+//MoveZerosSol.MoveZeroes(nums);
+//Console.WriteLine('[' + string.Join(", ", nums) + ']');
+
+Console.WriteLine(MaxConsicutiveOnes.FindMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]));
 
 
 
