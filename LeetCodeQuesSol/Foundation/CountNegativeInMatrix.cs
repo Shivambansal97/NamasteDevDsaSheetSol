@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCodeQuesSol
+namespace LeetCodeQuesSol.Foundation
 {
     /// <summary>
     /// Problem link: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
@@ -33,6 +33,7 @@ namespace LeetCodeQuesSol
             return count;
         }
 
+        //m*n
         //public static int CountNegatives(int[][] grid)
         //{
         //    int count = 0;

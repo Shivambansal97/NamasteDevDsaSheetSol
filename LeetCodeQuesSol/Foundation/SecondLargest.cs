@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCodeQuesSol
+namespace LeetCodeQuesSol.Foundation
 {
     internal static class SecondLargest
     {

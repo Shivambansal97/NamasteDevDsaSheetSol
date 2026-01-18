@@ -1,5 +1,4 @@
-﻿
-namespace LeetCodeQuesSol
+﻿namespace LeetCodeQuesSol.Foundation
 {
     /// <summary>
     /// Problem link: https://leetcode.com/problems/two-sum/submissions/
