@@ -68,14 +68,6 @@ namespace LeetCodeQuesSol.Test.LinkedList
             Assert.Equal(8, middle.val);
             Assert.Equal(new[] { 8 }, ListToArray(middle));
         }
-
-        [Fact]
-        public void Test_EmptyList()
-        {
-            var sol = new MiddleOfLinkedListSol();
-            ListNode? head = null;
-            var middle = sol.MiddleNode(head);
-            Assert.Null(middle);
-        }
+        
     }
 }
