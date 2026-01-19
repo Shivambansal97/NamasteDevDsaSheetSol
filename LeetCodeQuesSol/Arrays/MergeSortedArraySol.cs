@@ -4,6 +4,9 @@ using System.Text;
 
 namespace LeetCodeQuesSol.Arrays
 {
+    /// <summary>
+    /// Problem link: https://leetcode.com/problems/merge-sorted-array/
+    /// </summary>
     internal static class MergeSortedArraySol
     {
         public static void Merge(int[] nums1, int m, int[] nums2, int n)

@@ -52,8 +52,11 @@ using LeetCodeQuesSol.Foundation;
 //MoveZerosSol.MoveZeroes(nums);
 //Console.WriteLine('[' + string.Join(", ", nums) + ']');
 
-Console.WriteLine(MaxConsicutiveOnes.FindMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]));
+//Console.WriteLine(MaxConsicutiveOnes.FindMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]));
 
+//Console.WriteLine(MissingNumberSol.MissingNumber([1]));
+
+Console.WriteLine(SingleNumberSol.SingleNumber([4, 1, 2, 1, 2]));
 
 
 
