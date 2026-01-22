@@ -2,7 +2,7 @@ using LeetCodeQuesSol.LinkedList;
 using Xunit;
 using System.Collections.Generic;
 
-namespace LeetCodeQuesSol.Test.LinkedList
+namespace LeetCodeQuesSol.Tests.LinkedList
 {
     public class DetectCycleInListTests
     {

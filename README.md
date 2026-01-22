@@ -11,23 +11,9 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
 - **Other Topics (Arrays, Foundation, etc.):**
   - Solutions for arrays, math, and other foundational topics can be tested manually using the `Program.cs` file. You can add sample inputs and print outputs for verification.
 
-## Arrays
-- [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)  
-  `Arrays/MaxConsicutiveOnes.cs`
-- [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
-  `Arrays/MergeSortedArraySol.cs`
-- [Missing Number](https://leetcode.com/problems/missing-number/)  
-  `Arrays/MissingNumberSol.cs`
-- [Move Zeroes](https://leetcode.com/problems/move-zeroes/)  
-  `Arrays/MoveZerosSol.cs`
-- [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
-  `Arrays/RemoveDuplicatesSol.cs`
-- [Remove Element](https://leetcode.com/problems/remove-element/)  
-  `Arrays/RemoveElementSol.cs`
-- [Reverse String](https://leetcode.com/problems/reverse-string/)  
-  `Arrays/ReverseStringSol.cs`
-- [Single Number](https://leetcode.com/problems/single-number/)  
-  `Arrays/SingleNumberSol.cs`
+## Strings
+- [Length of last word]('https://leetcode.com/problems/length-of-last-word/')
+  `String/LengthOfLastWordSol.cs`
 
 ## Linked List
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  
@@ -54,6 +40,24 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
   `LinkedList/RotateRightSol.cs`
 - [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  
   `LinkedList/SwapPairSol.cs`
+
+  ## Arrays
+- [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)  
+  `Arrays/MaxConsicutiveOnes.cs`
+- [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
+  `Arrays/MergeSortedArraySol.cs`
+- [Missing Number](https://leetcode.com/problems/missing-number/)  
+  `Arrays/MissingNumberSol.cs`
+- [Move Zeroes](https://leetcode.com/problems/move-zeroes/)  
+  `Arrays/MoveZerosSol.cs`
+- [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
+  `Arrays/RemoveDuplicatesSol.cs`
+- [Remove Element](https://leetcode.com/problems/remove-element/)  
+  `Arrays/RemoveElementSol.cs`
+- [Reverse String](https://leetcode.com/problems/reverse-string/)  
+  `Arrays/ReverseStringSol.cs`
+- [Single Number](https://leetcode.com/problems/single-number/)
+  `Arrays/SingleNumberSol.cs`
 
 ## Foundation
 - [Binary Search](https://leetcode.com/problems/binary-search/)  

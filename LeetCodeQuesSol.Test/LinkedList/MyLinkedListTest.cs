@@ -1,7 +1,7 @@
 ﻿using LeetCodeQuesSol.LinkedList;
 using Xunit;
 
-namespace LeetCodeQuesSol.Test.LinkedList
+namespace LeetCodeQuesSol.Tests.LinkedList
 {
     public class MyLinkedListTest
     {

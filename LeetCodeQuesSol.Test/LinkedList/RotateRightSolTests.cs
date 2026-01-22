@@ -2,7 +2,7 @@ using LeetCodeQuesSol.LinkedList;
 using System;
 using Xunit;
 
-namespace LeetCodeQuesSol.Test.LinkedList
+namespace LeetCodeQuesSol.Tests.LinkedList
 {
     public class RotateRightSolTests
     {
