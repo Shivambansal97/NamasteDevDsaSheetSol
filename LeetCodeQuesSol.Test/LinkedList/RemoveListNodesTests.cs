@@ -24,7 +24,7 @@ namespace LeetCodeQuesSol.Test.LinkedList
             while (node != null)
             {
                 result.Add(node.val);
-                node = node.next;   
+                node = node.next;
             }
             return result.ToArray();
         }
@@ -90,6 +90,59 @@ namespace LeetCodeQuesSol.Test.LinkedList
             var head = BuildList(1, 2, 3, 4, 5);
             var result = sol.RemoveElements(head, 50);
             Assert.Equal(new[] { 1, 2, 3, 4, 5 }, ListToArray(result));
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_RemoveTail()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(1, 2, 3, 4, 5);
+            var result = sol.RemoveNthFromEnd(head, 1);
+            Assert.Equal(new[] { 1, 2, 3, 4 }, ListToArray(result));
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_RemoveHead()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(10, 20, 30, 40);
+            var result = sol.RemoveNthFromEnd(head, 4);
+            Assert.Equal(new[] { 20, 30, 40 }, ListToArray(result));
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_RemoveMiddle()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(5, 10, 15, 20, 25);
+            var result = sol.RemoveNthFromEnd(head, 3);
+            Assert.Equal(new[] { 5, 10, 20, 25 }, ListToArray(result));
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_SingleNode()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(42);
+            var result = sol.RemoveNthFromEnd(head, 1);
+            Assert.Null(result);
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_TwoNodes_RemoveFirst()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(99, 100);
+            var result = sol.RemoveNthFromEnd(head, 2);
+            Assert.Equal(new[] { 100 }, ListToArray(result));
+        }
+
+        [Fact]
+        public void Test_RemoveNthFromEnd_TwoNodes_RemoveSecond()
+        {
+            var sol = new RemoveListNodes();
+            var head = BuildList(99, 100);
+            var result = sol.RemoveNthFromEnd(head, 1);
         }
     }
 }
