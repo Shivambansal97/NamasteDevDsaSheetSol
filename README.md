@@ -1,6 +1,15 @@
-# LeetCodeQuesSol - Problem Solutions
+# NamasteDevDsaSheetSol - Problem Solutions
 
 This project contains C# solutions to a variety of LeetCode problems, organized by topic. Each solution links to the original problem statement.
+
+**We are following the [Namaste DSA Sheet](https://namastedev.com/namaste-dsa-sheet) by the NamasteDev team and solving every problem listed in the sheet.**
+
+## Testing Instructions
+
+- **Linked List Solutions:**
+  - All linked list problems are tested using dedicated unit test cases found in the `LeetCodeQuesSol.Test/LinkedList` folder.
+- **Other Topics (Arrays, Foundation, etc.):**
+  - Solutions for arrays, math, and other foundational topics can be tested manually using the `Program.cs` file. You can add sample inputs and print outputs for verification.
 
 ## Arrays
 - [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)  
