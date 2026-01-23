@@ -20,6 +20,7 @@ namespace LeetCodeQuesSol.String
                 length++;
                 i--;
             }
+
             return length;
         }
     }
