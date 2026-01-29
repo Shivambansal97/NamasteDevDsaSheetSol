@@ -28,6 +28,8 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
   `String/LargestOddNumSol.cs`  
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
   `String/LongestCommonPrefixSol.cs`
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  
+  `String/ValidAnagramSol.cs`
 
 ## Linked List
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  
