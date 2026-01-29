@@ -5,7 +5,7 @@ using System.Text;
 namespace LeetCodeQuesSol.String
 {
     /// <summary>
-    /// Problem link: https://leetcode.com/problems/maximum-frequency-sum-of-vowels-and-consonants/
+    /// Problem link: https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/submissions/
     /// </summary>
     public class MaxFreqSumSol
     {

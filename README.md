@@ -12,8 +12,22 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
   - Solutions for arrays, math, and other foundational topics can be tested manually using the `Program.cs` file. You can add sample inputs and print outputs for verification.
 
 ## Strings
-- [Length of last word]('https://leetcode.com/problems/length-of-last-word/')
-  `String/LengthOfLastWordSol.cs`
+- [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
+  `String/LengthOfLastWordSol.cs`  
+- [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)  
+  `String/FindWordsContainingChar.cs`  
+- [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)  
+  `String/JewelsAndStones.cs`  
+- [Max Freq Sum](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)  
+  `String/MaxFreqSumSol.cs`  
+- [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)  
+  `String/ReverseString2Sol.cs`  
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  
+  `String/ValidPalindromeSol.cs`  
+- [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)  
+  `String/LargestOddNumSol.cs`  
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
+  `String/LongestCommonPrefixSol.cs`
 
 ## Linked List
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  
