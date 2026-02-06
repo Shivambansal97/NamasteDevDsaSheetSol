@@ -2,6 +2,7 @@
 
 
 using LeetCodeQuesSol.Arrays;
+using LeetCodeQuesSol.BinarySearch;
 using LeetCodeQuesSol.Foundation;
 
 //var result = TwoSumSol.TwoSum([2, 7, 11, 15], 9);
@@ -56,10 +57,10 @@ using LeetCodeQuesSol.Foundation;
 
 //Console.WriteLine(MissingNumberSol.MissingNumber([1]));
 
-Console.WriteLine(SingleNumberSol.SingleNumber([4, 1, 2, 1, 2]));
+//Console.WriteLine(SingleNumberSol.SingleNumber([4, 1, 2, 1, 2]));
 
 
+//Console.WriteLine(FindMinInRotatedSortedArraySol.FindMin([2, 3, 1]));
 
-
-
+Console.WriteLine(SqrtSol.MySqrt(8));
 

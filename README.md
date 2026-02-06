@@ -11,6 +11,12 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
 - **Other Topics (Arrays, Foundation, etc.):**
   - Solutions for arrays, math, and other foundational topics can be tested manually using the `Program.cs` file. You can add sample inputs and print outputs for verification.
 
+## Binary Search
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
+  `BinarySearch/FindMinInRotatedSortedArraySol.cs`
+- [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
+  `BinarySearch/SqrtSol.cs`
+
 ## Strings
 - [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
   `String/LengthOfLastWordSol.cs`  
@@ -30,6 +36,10 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
   `String/LongestCommonPrefixSol.cs`
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  
   `String/ValidAnagramSol.cs`
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
+  `String/GroupAnagramSol.cs`
+- [Isomrphic string](https://leetcode.com/problems/isomorphic-strings/)  
+  `String/IsomorphicStringSol.cs`
 
 ## Linked List
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  
