@@ -62,5 +62,8 @@ using LeetCodeQuesSol.Foundation;
 
 //Console.WriteLine(FindMinInRotatedSortedArraySol.FindMin([2, 3, 1]));
 
-Console.WriteLine(SqrtSol.MySqrt(8));
+//Console.WriteLine(SqrtSol.MySqrt(8));
+
+Console.WriteLine(SearchInRotatedSortedArraySol.Search([4],4));
+
 

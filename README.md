@@ -16,6 +16,8 @@ This project contains C# solutions to a variety of LeetCode problems, organized 
   `BinarySearch/FindMinInRotatedSortedArraySol.cs`
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
   `BinarySearch/SqrtSol.cs`
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  `BinarySearch/SearchInRotatedSortedArraySol.cs`
 
 ## Strings
 - [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
