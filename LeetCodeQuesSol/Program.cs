@@ -64,6 +64,10 @@ using LeetCodeQuesSol.Foundation;
 
 //Console.WriteLine(SqrtSol.MySqrt(8));
 
-Console.WriteLine(SearchInRotatedSortedArraySol.Search([4],4));
+//Console.WriteLine(SearchInRotatedSortedArraySol.Search([4],4));
 
+//Console.WriteLine(FindPeakElementSol.FindPeakElement([1,2,3,9,4,5,6,1]));
+
+int[] result = FirstAndLastPosSol.SearchRange([5, 7, 7,7, 8, 8, 10], 7);
+Console.WriteLine("[{0},{1}]",result[0], result[1]);
 
