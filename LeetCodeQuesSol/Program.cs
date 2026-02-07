@@ -4,6 +4,7 @@
 using LeetCodeQuesSol.Arrays;
 using LeetCodeQuesSol.BinarySearch;
 using LeetCodeQuesSol.Foundation;
+using LeetCodeQuesSol.SlidingWindow;
 
 //var result = TwoSumSol.TwoSum([2, 7, 11, 15], 9);
 //Console.WriteLine('[' + string.Join(", ", result) + ']');
@@ -68,6 +69,9 @@ using LeetCodeQuesSol.Foundation;
 
 //Console.WriteLine(FindPeakElementSol.FindPeakElement([1,2,3,9,4,5,6,1]));
 
-int[] result = FirstAndLastPosSol.SearchRange([5, 7, 7,7, 8, 8, 10], 7);
-Console.WriteLine("[{0},{1}]",result[0], result[1]);
+//int[] result = FirstAndLastPosSol.SearchRange([5, 7, 7,7, 8, 8, 10], 7);
+//Console.WriteLine("[{0},{1}]",result[0], result[1]);
+
+int[] result = TwoSumInputArraySorted.TwoSum([2, 3, 4], 6);
+Console.WriteLine("[{0},{1}]", result[0], result[1]);
 
