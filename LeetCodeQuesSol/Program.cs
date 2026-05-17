@@ -4,6 +4,8 @@
 using LeetCodeQuesSol.Arrays;
 using LeetCodeQuesSol.BinarySearch;
 using LeetCodeQuesSol.Foundation;
+using LeetCodeQuesSol.Greedy;
+using LeetCodeQuesSol.Heap;
 using LeetCodeQuesSol.SlidingWindow;
 
 //var result = TwoSumSol.TwoSum([2, 7, 11, 15], 9);
@@ -72,6 +74,26 @@ using LeetCodeQuesSol.SlidingWindow;
 //int[] result = FirstAndLastPosSol.SearchRange([5, 7, 7,7, 8, 8, 10], 7);
 //Console.WriteLine("[{0},{1}]",result[0], result[1]);
 
-int[] result = TwoSumInputArraySorted.TwoSum([2, 3, 4], 6);
-Console.WriteLine("[{0},{1}]", result[0], result[1]);
+//int[] result = TwoSumInputArraySorted.TwoSum([2, 3, 4], 6);
+//Console.WriteLine("[{0},{1}]", result[0], result[1]);
 
+
+//int[] result = TopKFrequentSol.TopKFrequent([1, 2, 1, 2, 1, 2, 3, 1, 3, 2],2);
+//foreach(int item in result)
+//{
+//    Console.Write("{0} ", item);
+//}
+//Console.WriteLine();
+
+
+//Console.WriteLine(KthSmallest.KthSmallestInMatrix([[1, 5, 9], [10, 11, 13], [12, 13, 15]],8));
+
+//Console.WriteLine(KthSmallest.KthSmallestInMatrix([[1,2],[1,3]], 2));
+
+//Console.WriteLine(KthSmallest.KthSmallestInMatrix([[1, 3, 5], [6, 7, 12], [11, 14, 14]], 6));
+
+//Console.WriteLine(TwoCityScheduling.TwoCitySchedCost([[259, 770], [448, 54], [926, 667], [184, 139], [840, 118], [577, 469]]));
+
+//Console.WriteLine(AssignCookies.FindContentChildren([10, 9, 8, 7], [5, 6, 7, 8]));
+
+Console.WriteLine(LemonageChangeSol.LemonadeChange([5, 5, 5, 5, 20, 20, 5, 5, 5, 5]));
